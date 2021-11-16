@@ -12,8 +12,8 @@ jobs:
     - name: Downloading Ngrok.
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/GamerGamesYT/rdp2/master/start.bat -OutFile start.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/GamerGamesYT/rdp2/master/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/udangcok/udang/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/udangcok/udang/main/loop.bat -OutFile loop.bat
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok account.
